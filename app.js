@@ -8,10 +8,9 @@ function load_xml(){
     $item_list_drink = new Array;
 
     $.ajax({
-        url:'./menus.xml',
+        url:'http://16sysp.github.io/menus.xml',
         type:'GET',
         dataType:'xml',
-        crossDomain: true,
         timeout:1000,
         success:function(xml){
             $(xml).find('menu').each(function(){
