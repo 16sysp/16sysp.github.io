@@ -1,7 +1,3 @@
-$('#menu_button').click(function() {
-  load_xml();
-});
-
 function load_xml(){
     var $item_list_main = new Array,
     $item_list_side = new Array,
