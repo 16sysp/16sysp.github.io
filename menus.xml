@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menus [
+<!ELEMENT menus (menu+)>
+<!ELEMENT menu (item+, option*)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT option (#PCDATA)>
+<!ATTLIST menu category CDATA #REQUIRED>
+<!ATTLIST item price CDATA #REQUIRED>
+<!ATTLIST item alias CDATA #IMPLIED>
+<!ATTLIST item flavor CDATA #IMPLIED>
+<!ATTLIST option price CDATA #REQUIRED>
+]>
+
+<menus>
+    <menu category="定食">
+        <item price="450" alias="朝定">
+            この時間に朝食!?
+        </item>
+        <item price="700">
+            からあげ
+        </item>
+        <item price="700">
+            焼肉
+        </item>
+        <item price="700" alias="やきから">
+            焼肉&amp;唐揚げ
+        </item>
+        <item price="750">
+            チキンかつ
+        </item>
+        <item price="720" alias="Qチキ">
+            チキンかつ バーベQソース
+        </item>
+        <item price="720" alias="みそチキ">
+            チキンかつ みそ
+        </item>
+        <item price="780" alias="ジャンチキ">
+            ジャンボチキンかつ
+        </item>
+        <item price="820">
+            とんかつ
+        </item>
+        <item price="820" alias="Qかつ">
+            とんかつ バーベQソース
+        </item>
+        <item price="820" alias="みそかつ">
+            とんかつ みそ
+        </item>
+        <item price="800">
+            カキフライ
+        </item>
+        <item price="850">
+            海老フライ
+        </item>
+        <item price="850">
+            ミックスフライ
+        </item>
+        <item price="800" flavor="おろし, きのこ, バーベQ, みそ">
+            ハンバーグ M
+        </item>
+        <item price="950" flavor="おろし, きのこ, バーベQ, みそ">
+            ハンバーグ L
+        </item>
+
+        <option price="100">
+            ごはん 大盛
+        </option>
+        <option price="200">
+            おかず 大盛
+        </option>
+        <option price="120">
+            ちょいがけカレー
+        </option>
+    </menu>
+
+    <menu category="丼">
+        <item price="700">
+            焼肉丼
+        </item>
+        <item price="750" alias="からおや">
+            からあげ親子丼
+        </item>
+        <item price="770">
+            とりかつ丼
+        </item>
+        <item price="800">
+            かつ丼
+        </item>
+
+        <option price="100">
+            ごはん 大盛
+        </option>
+        <option price="200">
+            おかず 大盛
+        </option>
+    </menu>
+
+    <menu category="カレー・ピラフ">
+        <item price="600">
+            カレーライス
+        </item>
+        <item price="750">
+            キャベツナカレー
+        </item>
+        <item price="750">
+            からあげカレー
+        </item>
+        <item price="770">
+            とりかつカレー
+        </item>
+        <item price="820">
+            かつカレー
+        </item>
+        <item price="820">
+            バーグカレー
+        </item>
+        <item price="820">
+            海老フライカレー
+        </item>
+        <item price="820">
+            カキフライカレー
+        </item>
+        <item price="670">
+            海老ピラフ
+        </item>
+        <item price="670">
+            カレーピラフ
+        </item>
+
+        <option price="100">
+            ごはん 大盛
+        </option>
+        <option price="200">
+            おかず 大盛
+        </option>
+    </menu>
+
+    <menu category="飲み物">
+        <item price="250">
+            オレンジジュース
+        </item>
+        <item price="250">
+            コーラ
+        </item>
+        <item price="250">
+            ミルク（ホット・アイス）
+        </item>
+        <item price="300">
+            コーヒー（ホット・アイス）
+        </item>
+        <item price="300">
+            紅茶（ホット・アイス）
+        </item>
+    </menu>
+
+    <menu category="サイドメニュー">
+        <item price="40">
+            生卵
+        </item>
+        <item price="80">
+            納豆
+        </item>
+        <item price="250">
+            冷奴
+        </item>
+        <item price="300">
+            揚出豆腐
+        </item>
+        <item price="300">
+            ポテト
+        </item>
+        <item price="330">
+            焼茄子
+        </item>
+        <item price="330">
+            ししゃも
+        </item>
+        <item price="400">
+            ほっけ
+        </item>
+        <item price="400">
+            さんま（ひらき）
+        </item>
+        <item price="300">
+            野菜サラダ
+        </item>
+        <item price="400">
+            ツナサラダ
+        </item>
+
+        <option price="220">
+            定食化
+        </option>
+    </menu>
+
+    <menu category="アルコール">
+        <item price="400">
+            日本酒
+        </item>
+        <item price="350">
+            ビール（缶）
+        </item>
+    </menu>
+</menus>
